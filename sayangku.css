@@ -1,0 +1,39 @@
+body {
+    background-color: blue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.message-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
